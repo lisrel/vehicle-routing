@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>drivers</title>
+	<% include ../partials/head %>
+</head>
+<header>
+	<div class="container">
+		<div class="row-main">
+			<% include ../partials/header %>
+		</div>
+	</div>
+</header>
+<body>
+<div class="container">
+	<div class="row-main">
+		<div class='jumbotron'>
+			<h4 align="center"> Schedule List.</h4>
+		</div>
+		<form method="post">
+			<div class="form-group">
+				<label for="confirm" class="cols-sm-2 control-label">How many vehicles do you want to route? </label>
+				<select class="vehicles" data-style="btn-info" name="vehicles" align="right">
+					<optgroup label="Select Number of Vehicles">
+						<option name="" value="0" >--Please Select--</option>
+						<option name="veh1" value="1">1 Vehicle</option>
+						<option name="veh2" value="2">2 Vehicles</option>
+						<option name="veh3" value="3">3 Vehicles</option>
+						<option name="veh4" value="4">4 Vehicles</option>
+						<option name="veh5" value="4">5 Vehicles</option>
+					</optgroup>
+				</select>
+				<input type="submit" />
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+<footer>
+	<% include ../partials/footer %>
+</footer>
+</html>

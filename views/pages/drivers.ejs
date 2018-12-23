@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>drivers</title>
+	<% include ../partials/head %>
+	<script src='/javascripts/drivers.js'></script>
+</head>
+<header>
+	<div class="container">
+		<div class="row-main">
+            <% include ../partials/header %>
+			<div class='jumbotron'>
+				<h4 align="center">Drivers List.</h4>
+			</div>
+		</div>
+	</div>
+
+</header>
+<body>
+<div class="container">
+	<div class="row-main">
+		<div class="table-responsive">
+			<table class="table table-bordered table-striped table-hover table-condensed" id="drivers_table">
+				<caption align="center">List of Drivers.</caption>
+				<tr>
+					<th>Driver ID</th>
+					<th>Name</th>
+					<th>Surname</th>
+					<th>Availability</th>
+					<th>Mobile Number</th>
+				</tr>
+			</table>
+		</div>
+		<h5><a href="vehicles">click here to list of available vehicles</a></h5>
+	</div>
+</div>
+
+</body>
+<footer>
+	<% include ../partials/footer %>
+</footer>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Students on WRL</title>
+	<div class="container">
+		<div class="row-main">
+    		<% include ../partials/head %>
+			<script type="text/javascript" src="/javascripts/main.js"></script>
+		</div>
+	</div>
+</head>
+
+<header>
+	<div class="container">
+		<div class="row-main">
+            <% include ../partials/header %>
+	 		<div class="jumbotron">
+				<h4 align="center">MSU WRL List of students on WRL.</h4>
+			</div>
+		</div>
+	</div>
+</header>
+<body>
+<div class="container">
+	<div class="row-main">
+		<div class=" jumbotron table-responsive">
+			<table class="table table-bordered table-striped table-hover" id="students_table">
+				<caption align="centre">List of Students.</caption>
+				<tr>
+					<th>Reg Number</th>
+					<th>Name</th>
+					<th>Surname</th>
+					<th>Department</th>
+					<th>No. of Assessments</th>
+					<th>Organisation</th>
+					<th>Organisation Longitude</th>
+					<th>Organisation Latitude</th>
+					<th>City</th>
+					<th>Country</th>
+				</tr>
+			</table>
+			<h5><a href="firstassess">click here to view list of students due first assessment</a></h5>
+			<h5><a href="secondassess">click here to view list of students due for second assessment</a></h5>
+		</div>
+	</div>
+
+</div>
+
+</body>
+
+<footer>
+	<% include ../partials/footer %>
+</footer>
+</html>

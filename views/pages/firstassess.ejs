@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> first assessment</title>
+    <div class="container">
+        <div class="row-main">
+            <% include ../partials/head %>
+            <script type="text/javascript" src="/javascripts/firstasess.js"></script>
+        </div>
+    </div>
+</head>
+
+<header>
+    <div class="container">
+        <div class="row-main">
+            <% include ../partials/header %>
+            <div class="jumbotron">
+                <h4 align="center">MSU WRL List of students due for first assessment.</h4>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+<div class="container">
+    <div class="row-main">
+        <div class=" jumbotron table-responsive">
+            <table class="table table-bordered table-striped table-hover" id="first_students_table">
+                <caption align="top">List of Students Due For First Assessment.</caption>
+                <tr>
+                    <th>Reg Number</th>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Department</th>
+                    <th>Organisation</th>
+                    <th>Organisation Longitude</th>
+                    <th>Organisation Latitude</th>
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+            </table>
+
+            <h5><a href="drivers">click here to list of available drivers</a></h5>
+        </div>
+    </div>
+
+</div>
+
+</body>
+
+<footer>
+    <% include ../partials/footer %>
+</footer>
+</html>

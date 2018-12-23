@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vehicles List</title>
+     <% include ../partials/head %>
+<script type="text/javascript" src="/javascripts/vehicles.js"></script>
+</head>
+<header>
+	<div class="container">
+		<div class="row-main">
+            <% include ../partials/header %>
+			<div class="jumbotron">
+				<h4 align="center"> Vehicles List.</h4>
+			</div>
+		</div>
+	</div>
+</header>
+<body>
+<div class="container">
+	<div class="row-main">
+		<div class=" jumbotron table-responsive">
+			<table class="table table-bordered table-striped table-hover" id="vehicles_table">
+				<caption>List of Vehicles.</caption>
+				<tr>
+					<th>Vehicle Registration Number</th>
+					<th>Model</th>
+					<th>Capacity</th>
+					<th>Availability</th>
+				</tr>
+			</table>
+		</div>
+		<h5><a href="schedules_1">click here to proceed to routing vehicles</a></h5>
+	</div>
+</div>
+
+</body>
+<footer>
+	<% include ../partials/footer %>
+</footer>
+</html>

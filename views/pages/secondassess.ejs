@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> second assessment</title>
+    <div class="container">
+        <div class="row-main">
+            <% include ../partials/head %>
+            <script type="text/javascript" src="/javascripts/secondasess.js"></script>
+        </div>
+    </div>
+</head>
+
+<header>
+    <div class="container">
+        <div class="row-main">
+            <% include ../partials/header %>
+            <div class="jumbotron">
+                <h4 align="center">MSU WRL List of students due for second assessment.</h4>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+<div class="container">
+    <div class="row-main">
+        <div class=" jumbotron table-responsive">
+            <table class="table table-bordered table-striped table-hover" id="second_students_table">
+                <caption align="top">List of Students Due For Second Assessment.</caption>
+                <tr>
+                    <th>Reg Number</th>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Department</th>
+                    <th>Organisation</th>
+                    <th>Organisation Longitude</th>
+                    <th>Organisation Latitude</th>
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+            </table>
+
+            <h5><a href="drivers_1">click here to list of available drivers</a></h5>
+        </div>
+    </div>
+
+</div>
+
+</body>
+
+<footer>
+    <% include ../partials/footer %>
+</footer>
+</html>
